@@ -1,8 +1,25 @@
 aid: pitzi
 name: Pitzi
-description: 'Pitzi is a company surfaced as a portfolio company of dcm-ventures, qed-investors and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Pitzi is a Brazilian insurtech (founded around 2013) that sells mobile phone
+  protection insurance, covering devices against theft, robbery, cracked screens, and accidental
+  damage. Customers subscribe to monthly device-protection plans and file claims through an
+  online customer portal to get their phone repaired or replaced, with support offered via a
+  help center, email, and WhatsApp. Pitzi also distributes through a partner program and is
+  backed by DCM Ventures and QED Investors. It operates as a direct-to-consumer and
+  partner-distributed fintech/insurtech in Brazil. No public API or developer portal is
+  currently published.'
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pitzi.com.br/assets/images/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/pitzi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Insurtech
+- Insurance
+- Mobile
+- Device Protection
+- Brazil
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://pitzi.com.br/
+- type: Login
+  url: https://pitzi.com.br/customer_area/minha_conta
+- type: Support
+  url: https://sites.google.com/pitzi.com.br/faq
+- type: PrivacyPolicy
+  url: https://pitzi.com.br/politica-de-privacidade
+- type: TermsOfService
+  url: https://pitzi.com.br/termos
+- type: Partners
+  url: https://pitzi.com.br/parceiros
+- type: Careers
+  url: https://pitzi.gupy.io/
+- type: DomainSecurity
+  url: security/pitzi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

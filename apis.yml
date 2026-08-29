@@ -8,6 +8,17 @@ description: 'Pitzi is a Brazilian insurtech (founded around 2013) that sells mo
   backed by DCM Ventures and QED Investors. It operates as a direct-to-consumer and
   partner-distributed fintech/insurtech in Brazil. No public API or developer portal is
   currently published.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval

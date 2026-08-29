@@ -32,6 +32,9 @@ accessModel:
   method: derived
 image: https://pitzi.com.br/assets/images/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/pitzi/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer portal is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
